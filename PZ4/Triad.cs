@@ -8,33 +8,33 @@ namespace PZ4
 {
     class Triad
     {
-        private double _a;
-        private double _b;
-        private double _c;
+        private int _a;
+        private int _b;
+        private int _c;
 
-        public double A {
+        public int A {
             get { return _a; }
             set { _a = value; } 
         }
-        public double C
+        public int C
         {
             get { return _c; }
             set { _c = value; }
         }
-        public double B
+        public int B
         {
             get { return _b; }
             set { _b = value; }
         }
         public Triad()
         { }
-        public Triad(double a, double b, double c) 
+        public Triad(int a, int b, int c) 
         {
             _a= a;
             _b= b;  
             _c= c;
         }
-        public void Read(double a, double b, double c)
+        public void Read(int a, int b, int c)
         {
             _a= a;
             _b= b;
